@@ -40,7 +40,7 @@ function Header() {
       {/* sidebar */}
       <div
         ref={sideBarRef}
-        className="absolute left-0 top-0 bg-black w-full min-h-screen p-10 translate-x-[100%] transition-transform md:hidden">
+        className="fixed right-0 top-0 bg-black w-full min-h-screen p-10 translate-x-[100%] transition-transform md:hidden">
         <div className=" w-full flex justify-between">
           <div>
             <Image
