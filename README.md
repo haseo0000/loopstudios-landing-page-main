@@ -4,4 +4,4 @@ loopstudios-landing-page-main
 
 ## URL
 
-https://vercel.com/haseo0000/loopstudios-landing-page-main
+https://loopstudios-landing-page-main-eta.vercel.app/
