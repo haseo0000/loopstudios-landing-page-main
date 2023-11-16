@@ -11,11 +11,11 @@ const SocialIconList = [
 
 function Bottom() {
   return (
-    <div className="p-10 grid justify-items-center gap-[20px] md:grid-cols-2 md:items-center md:px-[20%]">
-      <div className="md:row-start-1 md:justify-self-start">
+    <div className="p-10 grid justify-items-center gap-[20px] xl:grid-cols-2 xl:items-center xl:px-[20%]">
+      <div className="xl:row-start-1 xl:justify-self-start">
         <span className="text-4xl font-bold">loopstudios</span>
       </div>
-      <div className="flex flex-col gap-[15px] md:flex-row md:justify-self-start">
+      <div className="flex flex-col gap-[15px] xl:flex-row xl:justify-self-start">
         {BottomList &&
           BottomList.map((item) => (
             <span key={item} className="cursor-pointer">
@@ -23,12 +23,12 @@ function Bottom() {
             </span>
           ))}
       </div>
-      <div className="flex gap-[20px] md:row-start-1 md:col-start-2 md:justify-self-end">
+      <div className="flex gap-[20px] xl:row-start-1 xl:col-start-2 xl:justify-self-end">
         {SocialIconList.map((item) => (
           <Image key={item} src={item} alt={item} width={30} height={30} />
         ))}
       </div>
-      <div className="md:justify-self-end">
+      <div className="xl:justify-self-end">
         <span className="text-gray-500 mt-5">
           @2021 Loopstudios. All rights reserved.
         </span>
