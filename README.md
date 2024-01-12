@@ -1,7 +1,5 @@
-## Frontend mentor
+## Frontend Mentor - loopstudios landing page main
 
-loopstudios-landing-page-main
+just for practice about UI layout and responsive.
 
-## URL
-
-https://loopstudios-landing-page-main-eta.vercel.app/
+[DEMO](https://loopstudios-landing-page-main-eta.vercel.app/)
